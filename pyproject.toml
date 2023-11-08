@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "echoai"
+version = "0.1.0"
+description = ""
+authors = ["Debora Antunes <d.antunes@kigroup.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.0.242"
+openai = "^0.27.8"
+moviepy = "^1.0.3"
+jq = "^1.4.1"
+tiktoken = "^0.4.0"
+pysrt = "^1.1.2"
+keybert = "^0.7.0"
+gradio = "^3.38.0"
+google-search-results = "^2.4.2"
+nltk = "^3.8.1"
+pytube = "^15.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
